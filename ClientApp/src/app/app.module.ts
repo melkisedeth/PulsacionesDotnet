@@ -12,7 +12,6 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PersonaConsultaComponent } from './Pulsacion/persona-consulta/persona-consulta.component';
 import { PersonaRegistroComponent } from './Pulsacion/persona-registro/persona-registro.component';
 import { AppRoutingModule } from './app-routing.module';
-import { MenuComponent } from './Pulsacion/menu/menu.component';
 import { PersonaService } from './services/persona.service';
 
 
@@ -24,8 +23,7 @@ import { PersonaService } from './services/persona.service';
     CounterComponent,
     FetchDataComponent,
     PersonaConsultaComponent,
-    PersonaRegistroComponent,
-    MenuComponent
+    PersonaRegistroComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
