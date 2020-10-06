@@ -23,7 +23,7 @@ export class PersonaRegistroComponent implements OnInit {
 
   add() {
     if (this.validar() == false) {
-      if (Object.entries(this.personas).length == 0) {
+      if (this.personas!=null) {
         alert(' Se agrego una nueva pesona' + JSON.stringify(this.persona));
         this.personaService.post(this.persona);
       } else {
