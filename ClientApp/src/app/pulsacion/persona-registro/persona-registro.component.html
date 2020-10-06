@@ -20,8 +20,24 @@
     <input type="number" name="edad" [(ngModel)]="persona.edad" class="form-control" />
     </div>
     <div class="form-group">
-    <label>pulsacion</label>
-    <input type="number" name="pulsacion" [(ngModel)]="persona.pulsacion" class="form-control" />
+    <label>Departamento</label>
+    <input type="text" name="departamento" [(ngModel)]="persona.departamento" class="form-control" />
+    </div>
+    <div class="form-group">
+    <label>Ciudad</label>
+    <input type="text" name="ciudad" [(ngModel)]="persona.ciudad" class="form-control" />
+    </div>
+    <div class="form-group">
+    <label>Modalidad</label>
+    <input type="text" name="modalidad" [(ngModel)]="persona.modalidad" class="form-control" />
+    </div>
+    <div class="form-group">
+    <label>Valor</label>
+    <input type="number" name="valor" [(ngModel)]="persona.valor" class="form-control" />
+    </div>
+    <div class="form-group">
+    <label>Fecha</label>
+    <input type="text" name="fecha" [(ngModel)]="persona.fecha" class="form-control" />
     </div>
     <div class="text-center">
     <button class="btn btn-primary mr-1"(click)="add()">Registrar</button>

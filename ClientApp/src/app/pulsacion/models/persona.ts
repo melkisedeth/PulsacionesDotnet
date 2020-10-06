@@ -3,5 +3,9 @@ export class Persona {
     nombre: string;
     sexo: string;
     edad: number;
-    pulsacion: number;
+    departamento:string;
+    ciudad:string
+    modalidad:string;
+    valor:number;
+    fecha:string;
 }
